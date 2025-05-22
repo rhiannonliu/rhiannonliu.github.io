@@ -10,27 +10,26 @@ body {
     margin: 0;
 }
 
-.displayed h1 {
+.displayed p {
     font-size: 80px;
     letter-spacing: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    border-right: 5px solid;
-    padding-right: 10px; /*moves the cursor away from text*/
+    border-right: 2px solid; /*cursor*/
     width: 0;
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 5s steps(19, end) forwards,
+        typing 5s steps(21) 1 forwards,
         cursor .4s step-end infinite alternate;
 }
 
 @keyframes typing {
-    to {width: 25ch}
+    from {width: 0}
+    to {width: 21ch}
 }
 
 @keyframes cursor {
     50% {border-color: transparent}
 }
-
 
