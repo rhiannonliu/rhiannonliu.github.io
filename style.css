@@ -14,17 +14,18 @@ body {
     font-size: 80px;
     letter-spacing: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
     border-right: 5px solid;
     width: 0;
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 5s steps(21),
+        typing 5s steps(21) forwards,
         cursor .4s step-end infinite alternate;
 }
 
 @keyframes typing {
-    to {width: min-content}
+    to {width: 21ch}
 }
 
 @keyframes cursor {
