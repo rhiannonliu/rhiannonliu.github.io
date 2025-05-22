@@ -12,22 +12,20 @@ body {
 
 .displayed p {
     font-size: 80px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    box-sizing: border-box;
     border-right: 2px solid; /*cursor*/
     padding-right: 0.5ch;
-    width: 0;
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 3s steps(21) 1 forwards,
+        typing 3s steps(21) forwards,
         cursor .4s step-end infinite alternate;
 }
 
 @keyframes typing {
     from {width: 0}
-    to {width: 21ch}
+    to {width: 22ch}
 }
 
 @keyframes cursor {
