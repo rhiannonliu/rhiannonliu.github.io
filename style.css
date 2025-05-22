@@ -1,34 +1,27 @@
 body {
     margin:0;
     background: rgb(133, 176, 133);
-    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
 }
 
 .displayed {
-    margin: 0 auto;
-    display: inline-block;
+    max-width: 90vw;
     overflow: hidden;
 }
 
 .displayed p {
-    font-size: 80px;
+    font-size: clamp(20px, 5vw, 80px);
     letter-spacing: 0.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-right: 2px solid; /*cursor*/
-    padding-right: 0.5ch;
-    white-space: nowrap;
-    overflow: hidden;
     animation:
-        typing 3s steps(21) forwards,
-        cursor .4s step-end infinite alternate;
+        typing 3s steps(21) forwards
 }
 
 @keyframes typing {
     from {width: 0}
     to {width: 22ch}
-}
-
-@keyframes cursor {
-    50% {border-color: transparent}
 }
 
