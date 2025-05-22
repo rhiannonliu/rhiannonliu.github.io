@@ -13,19 +13,20 @@ body {
 .displayed h1 {
     font-size: 80px;
     letter-spacing: 10px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     border-right: 5px solid;
+    padding-right: 10px; /*moves the cursor away from text*/
     width: 0;
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 5s steps(21) forwards,
+        typing 5s steps(19, end) forwards,
         cursor .4s step-end infinite alternate;
 }
 
 @keyframes typing {
-    to {width: 21ch}
+    to {width: 19ch}
 }
 
 @keyframes cursor {
