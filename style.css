@@ -26,7 +26,7 @@ body {
 }
 
 @keyframes typing {
-    to {width: 19ch}
+    to {width: 25ch}
 }
 
 @keyframes cursor {
