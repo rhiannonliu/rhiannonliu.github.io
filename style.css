@@ -3,9 +3,11 @@ body {
 }
 
 .displayed {
-    display: inline-block;
+    display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .displayed h1 {
@@ -13,12 +15,17 @@ body {
     letter-spacing: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     border-right: 5px solid;
-    width: 100%;
+    width: 0;
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 5s steps(21),
+        typing 5s steps(21) forwards,
         cursor .4s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
 }
 
 @keyframes cursor {
