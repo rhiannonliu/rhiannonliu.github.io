@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: rgb(146, 200, 146);
-    font-family: serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .display {
