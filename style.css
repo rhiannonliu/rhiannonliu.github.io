@@ -1,14 +1,13 @@
 body {
     margin:0;
     background: rgb(133, 176, 133);
+    text-align:center;
 }
 
 .displayed {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
 }
 
 .displayed p {
@@ -22,7 +21,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     animation:
-        typing 5s steps(21) 1 forwards,
+        typing 3s steps(21) 1 forwards,
         cursor .4s step-end infinite alternate;
 }
 
