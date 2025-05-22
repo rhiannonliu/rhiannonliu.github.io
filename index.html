@@ -6,8 +6,20 @@
     <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-    <div class = "container">
-        <div class = "typed-out">Hi! This is Rhiannon!</div>
+    <div class = "displayed">
+        <h1>Hi! I'm Rhiannon, and I'm a <span class = "typed-out"></span></h1>
     </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".typed-out", {
+            strings: ["Student", "Programmer", "Illustrator", "Gamer", "Jazz Lover"],
+            typeSpped: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+
 </body>
 </html>
