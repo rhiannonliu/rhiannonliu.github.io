@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background: rgb(133, 176, 133);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -7,6 +9,7 @@ body {
 .displayed {
     width: 100%;
     height: 100vh;
+    background: rgb(133, 176, 133);
     color: rgb(54, 43, 28);
     display: flex;
     align-items: center;
@@ -14,10 +17,11 @@ body {
 }
 
 .displayed h1 {
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 80px;
+    font-weight: 600;
 }
 
 span {
     color: rgb(247, 214, 239);
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
