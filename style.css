@@ -1,28 +1,22 @@
 body {
     margin:0;
     background: rgb(133, 176, 133);
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 100vh;
 }
 
-.displayed {
+.displayed {display: inline-block}
+
+.text {
+    font-size: 50px;
+    letter-spacing: 0.2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    white-space: nowrap;
     overflow: hidden;
+    animation: typing 2s steps(21)
 }
 
-.displayed p {
-    font-size: clamp(20pt, 5vw, 80pt);
-    letter-spacing: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    white-space: nowrap; 
-    overflow: hidden;
-    animation:
-        typing 3s steps(21) forwards
-}
-
-@keyframes typing {
+@keyframs typing {
     from {width: 0}
-    to {width: 100%}
 }
+
 
