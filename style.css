@@ -3,36 +3,35 @@ body {
     background-color: rgb(171, 201, 171);
     display: flex;
     height: 100vh;
+    overflow: auto;
 }
 
 #text-box {
-	resize: both;
-    overflow: auto;
-    width: 800px;
-    height: 200px;
+    width: 80vw;   /*doing this instead of px lets box adjust to screen size*/
+    height: 30vh;
+    min-width: 300px;
+    min-height: 150px;
     border-radius: 10px;
-    background: rgba(99, 121, 99);
+    background: rgba(99, 121, 99, 0.7);
     padding: 20px;
     margin: 20px;
-    opacity: 0.7;
 }
 
-#text-box p{
+#text-box h1, p{
     color: rgb(47, 40, 27);
     font-family: "Mystery Quest", system-ui;
     font-weight: 400;
-    font-style: normal; 
-    font-size: large;
+    font-style: normal;
     
 }
 
 #text-box h1{
-    color: rgb(47, 40, 27);
-    font-family: "Mystery Quest", system-ui;
-    font-weight: 400;
-    font-style: normal; 
-    font-size: 40px;
+    font-size: 70px;
     }
+
+#text-box p{
+    font-size: 50px;
+}
   
 
 
