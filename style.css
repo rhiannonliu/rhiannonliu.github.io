@@ -1,27 +1,26 @@
 body {
     margin:0;
     background-color: rgb(171, 201, 171);
-    display: flex;
-    flex-direction: column;
     height: 100vh;
     color: rgb(47, 40, 27);
 }
 
-.p {
-    font-size: 20px;
+.signature {
+    margin: 20px 20px 0 20px;
 }
 
+.signature p {
+    font-size: 10px;
+}
 
 #text-box {
     width: 80vw;   /*doing this instead of px lets box adjust to screen size*/
-    height: 60vh;
     min-width: 300px;
-    min-height: 150px;
     border-radius: 10px;
     background: rgba(99, 121, 99, 0.7);
     padding: 10px;
     padding-top: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 #text-box h1, p{
