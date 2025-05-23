@@ -8,14 +8,13 @@ body {
 }
 
 .displayed {
-    max-width: 90vw;
     overflow: hidden;
 }
 
 .displayed p {
     font-size: clamp(20px, 5vw, 80px);
     letter-spacing: 0.1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
     white-space: nowrap; 
     overflow: hidden;
     animation:
