@@ -1,29 +1,23 @@
 body {
     margin:0;
-    background: rgb(133, 176, 133);
+    background-color: rgb(171, 201, 171);
+    display: flex;
+    height: 100vh;
 }
 
-.displayed {display: inline-block}
-
-.text {
-    font-size: 5em;
-    letter-spacing: 5px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    border-right: 5px solid;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: 
-        typing 2s steps(21),
-        cursor .4s step-end infinite alternate
-}
-
-@keyframes cursor {
-    50% {border-color: transparent}
-}
-
-@keyframes typing {
-    from {width: 0}
+#text-box {
+    resize: both;
+    overflow: auto;
+    width: 800px;
+    height: 200px;
+    border-radius: 10px;
+    background: rgb(99, 121, 99);
+    color: rgb(47, 40, 27);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 20px;
+    margin: 20px;
+    opacity: 0.7;
 }
 
 
