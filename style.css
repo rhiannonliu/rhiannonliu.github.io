@@ -12,12 +12,11 @@ body {
 }
 
 .displayed p {
-    font-size: clamp(20px, 5vw, 80px);
+    font-size: clamp(20pt, 5vw, 80pt);
     letter-spacing: 10px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     white-space: nowrap; 
     overflow: hidden;
-    width: 21ch;
     animation:
         typing 3s steps(21) forwards
 }
