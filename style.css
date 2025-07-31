@@ -1,48 +1,22 @@
 body {
     margin:0;
-    background-color: rgb(171, 201, 171);
     height: 100vh;
-    color: rgb(47, 40, 27);
+    color: rgb(194, 240, 56);
+    background-color: rgb(61, 43, 21);
 }
 
-.signature {
-    line-height: 40px;
-    padding-left: 10px;
-    margin-left: 10px;
+.components {
+    margin-top: 200px
 }
 
-.signature p {
-    font-size: 10px;
+h1 {
+    line-height: 0.1
 }
 
-#text-box {
-    width: 80vw;   /*doing this instead of px lets box adjust to screen size*/
-    min-width: 300px;
-    border-radius: 10px;
-    background: rgba(99, 121, 99, 0.7);
-    padding: 10px;
-    padding-top: 10px;
-    margin: 10px;
+h2 {
+    line-height: 0.5;
 }
 
-#text-box h1, p{
-    font-family: "Mystery Quest", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    
+.background-image {
+    opacity: 0.6
 }
-
-#text-box h1{
-    font-size: 70px;
-    line-height: 80%;
-    }
-
-#text-box p{
-    color: rgb(79, 72, 58);
-    font-size: 30px;
-}
-  
-
-
-
-
