@@ -5,12 +5,12 @@ body {
 }
 
 .components {
-    margin-top: 300px
+    margin-top: 300px;
 }
 
 h1 {
     color: rgb(194, 240, 56);
-    line-height: 0.1
+    line-height: 0.1;
 }
 
 h2 {
@@ -19,5 +19,13 @@ h2 {
 }
 
 .background-image {
-    opacity: 0.6
+    opacity: 0.6;
+}
+
+.button {
+    background-color: rgb(194, 240, 56);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
 }
